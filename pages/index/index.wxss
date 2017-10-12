@@ -1,0 +1,60 @@
+page {
+	height: 100%;
+}
+
+.bg-night {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.title {
+	position: absolute;
+	background-color: #355ba2;
+	color: #fff;
+	padding: 20rpx 30rpx;
+	border-radius: 50%;
+}
+
+.title-one {
+	top: 20rpx;
+	left: -100rpx;
+}
+
+.title-two {
+	top: 140rpx;
+	left: -100rpx;
+}
+
+.title-three {
+	top: 260rpx;
+	right: -100rpx;
+}
+
+.title-four {
+	top: 380rpx;
+	right: -100rpx;
+}
+
+.star {
+	display: block;
+	width: 8rpx;
+	height: 8rpx;
+	border-radius: 50%;
+	background: #fff;
+	top: 200rpx;
+	left: 50%;
+	transform: translateX(-50%);
+	position: absolute;
+	box-shadow: 0 0 10rpx 10rpx rgba(255, 255, 255, .3);
+}
+
+.star:after {
+	content: '';
+	display: block;
+	top: 0px;
+	left: 8rpx;
+	border: solid 0rpx #fff;
+	border-width: 4rpx 180rpx 4rpx 180rpx;
+	border-color: transparent transparent transparent rgba(255, 255, 255, .3);
+}
