@@ -1,0 +1,114 @@
+/**app.wxss**/
+@import "./style/weui.wxss";
+
+page,
+.page {
+	height: auto;
+}
+
+.weui-flex {
+	align-items: center;
+}
+
+.flex-center {
+	justify-content: center;
+	align-items: center;
+}
+
+.flex-end {
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.flex-jc-center {
+	justify-content: center;
+}
+
+.flex-ai-center {
+	align-items: center;
+}
+
+.flex-space-between {
+	align-items: center;
+	justify-content: space-between;
+}
+
+.bg-blue {
+	background: #4287ff !important;
+}
+
+.bg-green {
+	background: #060 !important;
+}
+
+.bg-green-light {
+	background: #390 !important;
+}
+
+.bg-orange {
+	background: #f60 !important;
+}
+
+.bg-red {
+	background: #ff001e !important;
+}
+
+.bg-gray {
+	background: #999 !important;
+}
+
+.bg-white {
+	background: #fff !important;
+}
+
+.color-blue {
+	color: #4287ff !important;
+}
+
+.color-red {
+	color: #f90b0b !important;
+}
+
+.color-green {
+	color: #060 !important;
+}
+
+.color-orange {
+	color: #f60 !important;
+}
+
+.color-gray {
+	color: #999 !important;
+}
+
+.color-gray-weight {
+	color: #666 !important;
+}
+
+.color-white {
+	color: #fff !important;
+}
+
+.color-black {
+	color: #000 !important;
+}
+
+.btn-orange {
+	background-color: #f56729 !important;
+}
+
+.btn-red {
+	background-color: #ff001e !important;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-left {
+	text-align: left;
+}
