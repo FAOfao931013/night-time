@@ -16,22 +16,22 @@ page {
 	border-radius: 50%;
 }
 
-.title-one {
+.title-1 {
 	top: 20rpx;
 	left: -100rpx;
 }
 
-.title-two {
+.title-2 {
 	top: 140rpx;
 	left: -100rpx;
 }
 
-.title-three {
+.title-3 {
 	top: 260rpx;
 	right: -100rpx;
 }
 
-.title-four {
+.title-4 {
 	top: 380rpx;
 	right: -100rpx;
 }
@@ -42,11 +42,10 @@ page {
 	height: 8rpx;
 	border-radius: 50%;
 	background: #fff;
-	top: 200rpx;
-	left: 50%;
 	transform: translateX(-50%);
 	position: absolute;
 	box-shadow: 0 0 10rpx 10rpx rgba(255, 255, 255, .3);
+	transform: rotate(-45deg);
 }
 
 .star:after {
@@ -57,4 +56,19 @@ page {
 	border: solid 0rpx #fff;
 	border-width: 4rpx 180rpx 4rpx 180rpx;
 	border-color: transparent transparent transparent rgba(255, 255, 255, .3);
+}
+
+.star-1 {
+	top: -5px;
+	left: 70%;
+}
+
+.star-2 {
+	top: -5px;
+	left: 82%;
+}
+
+.star-3 {
+	top: -5px;
+	left: 94%;
 }

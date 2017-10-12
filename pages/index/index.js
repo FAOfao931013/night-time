@@ -5,62 +5,75 @@ Page({
     data: {
         imgSrc: '../../img/',
         userInfo: {},
-        animationOne: {},
-        animationTwo: {},
-        animationThree: {},
-        animationFour: {},
+        animationXY: {},
+        animationSF: {},
+        starAn1: {},
+        starAn2: {},
+        starAn3: {},
     },
-    animationOne() {
+    //'星'和'夜'字动画
+    animationXY() {
         const animation = wx.createAnimation({
             duration: 3000,
             timingFunction: 'ease',
             delay: 1000,
-        })
+        });
 
         animation.translateX(160).rotate(360).step();
 
         this.setData({
-            animationOne: animation.export(),
+            animationXY: animation.export(),
         });
     },
-    animationTwo() {
+    //'时'和'分'字动画
+    animationSF() {
         const animation = wx.createAnimation({
             duration: 3000,
             timingFunction: 'ease',
-            delay: 1000,
-        })
-
-        animation.translateX(160).rotate(360).step();
-
-        this.setData({
-            animationTwo: animation.export(),
         });
-    },
-    animationThree() {
-        const animation = wx.createAnimation({
-            duration: 3000,
-            timingFunction: 'ease',
-            delay: 1000,
-        })
 
         animation.translateX(-160).rotate(-360).step();
 
         this.setData({
-            animationThree: animation.export(),
+            animationSF: animation.export(),
         });
     },
-    animationFour() {
-        const animation = wx.createAnimation({
-            duration: 3000,
-            timingFunction: 'ease',
-            delay: 1000,
-        })
+    //流星动画
+    meteorAnimation() {
+        const duration = 800;
 
-        animation.translateX(-160).rotate(-360).step();
+        const delay = 400;
+
+        const animation1 = wx.createAnimation({
+            duration,
+            timingFunction: 'linear',
+        });
+
+        const animation2 = wx.createAnimation({
+            duration,
+            timingFunction: 'linear',
+            delay,
+        });
+
+        const animation3 = wx.createAnimation({
+            duration,
+            timingFunction: 'linear',
+            delay: delay * 2,
+        });
+
+        const trX = -480;
+        const trY = 600;
+
+        animation1.translate(trX, trY).rotate(-45).opacity(1).step();
+        animation2.translate(trX, trY).rotate(-45).opacity(1).step();
+        animation3.translate(trX, trY).rotate(-45).opacity(1).step();
 
         this.setData({
-            animationFour: animation.export(),
+            starAn1: animation1.export(),
+            starAn2: animation2.export(),
+            starAn3: animation3.export(),
         });
+
     },
     onLoad(options) {
         app.getUserInfo().then(userInfo => {
@@ -73,13 +86,15 @@ Page({
 
     },
     onShow() {
-        this.animationOne();
-        this.animationTwo();
+        this.animationXY();
 
         setTimeout(() => {
-            this.animationThree();
-            this.animationFour();
-        }, 3500)
+            this.animationSF();
+        }, 3500);
+
+        setTimeout(() => {
+            this.meteorAnimation();
+        }, 6000)
     },
     onUnload() {
 

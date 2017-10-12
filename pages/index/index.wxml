@@ -1,9 +1,11 @@
-<view class="title title-one" animation="{{animationOne}}">星</view>
-<view class="title title-two" animation="{{animationTwo}}">夜</view>
-<view class="title title-three" animation="{{animationThree}}">时</view>
-<view class="title title-four" animation="{{animationFour}}">分</view>
+<view class="title title-1" animation="{{animationXY}}">星</view>
+<view class="title title-2" animation="{{animationXY}}">夜</view>
+<view class="title title-3" animation="{{animationSF}}">时</view>
+<view class="title title-4" animation="{{animationSF}}">分</view>
 
-<view class="star"></view>
+<view class="star star-1" animation="{{starAn1}}"></view>
+<view class="star star-2" animation="{{starAn2}}"></view>
+<view class="star star-3" animation="{{starAn3}}"></view>
 
 <image class="bg-night" src="{{imgSrc}}night-time.jpg"></image>
 
