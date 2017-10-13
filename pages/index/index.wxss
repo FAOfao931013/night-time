@@ -72,3 +72,31 @@ page {
 	top: -5px;
 	left: 94%;
 }
+
+.star-4 {
+	top: 100px;
+	right: -5px;
+}
+
+.star-5 {
+	top: 200px;
+	right: -5px;
+}
+
+.chapter-btn {
+	margin: 0;
+	background-color: #5e89ea !important;
+	opacity: 0;
+}
+
+.chapter-wrap {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 150rpx;
+	width: 450rpx;
+}
+
+.chapter-wrap .weui-flex {
+	margin-bottom: 80rpx;
+}

@@ -8,12 +8,20 @@ Object.assign = require('./utils/object-assign');
 App({
     globalData: {
         userInfo: null,
+        first: true,
+        second: false,
+        third: false,
+        fourth: false,
+        final: false,
     },
     onLaunch() {
 
     },
     onShow() {
-
+        this.globalData.second = this.getStorage('second');
+        this.globalData.third = this.getStorage('third');
+        this.globalData.fourth = this.getStorage('fourth');
+        this.globalData.final = this.getStorage('final');
     },
     //获取本地数据
     getStorage(key) {

@@ -1,11 +1,58 @@
-<view class="title title-1" animation="{{animationXY}}">星</view>
-<view class="title title-2" animation="{{animationXY}}">夜</view>
-<view class="title title-3" animation="{{animationSF}}">时</view>
-<view class="title title-4" animation="{{animationSF}}">分</view>
+<view class="title title-1"
+    animation="{{animationXY}}">星</view>
+<view class="title title-2"
+    animation="{{animationXY}}">夜</view>
+<view class="title title-3"
+    animation="{{animationSF}}">时</view>
+<view class="title title-4"
+    animation="{{animationSF}}">分</view>
 
-<view class="star star-1" animation="{{starAn1}}"></view>
-<view class="star star-2" animation="{{starAn2}}"></view>
-<view class="star star-3" animation="{{starAn3}}"></view>
+<view class="star star-1"
+    animation="{{starAn1}}"></view>
+<view class="star star-2"
+    animation="{{starAn2}}"></view>
+<view class="star star-3"
+    animation="{{starAn3}}"></view>
+<view class="star star-4"
+    animation="{{starAn4}}"></view>
+<view class="star star-5"
+    animation="{{starAn5}}"></view>
 
-<image class="bg-night" src="{{imgSrc}}night-time.jpg"></image>
+<image class="bg-night"
+    src="{{imgSrc}}night-time.jpg"></image>
 
+<view class="chapter-wrap">
+    <view class="weui-flex flex-space-between">
+        <block wx:if="{{firstBtn}}">
+            <button class="weui-button chapter-btn chapter-1"
+                type="primary"
+                animation="{{btnAn}}">第一章</button>
+        </block>
+
+        <block wx:if="{{secondBtn}}">
+            <button class="weui-button chapter-btn chapter-2"
+                type="primary"
+                animation="{{btnAn}}">第二章</button>
+        </block>
+    </view>
+
+    <view class="weui-flex flex-space-between">
+        <block wx:if="{{thirdBtn}}">
+            <button class="weui-button chapter-btn chapter-3"
+                type="primary"
+                animation="{{btnAn}}">第三章</button>
+        </block>
+
+        <block wx:if="{{fourthBtn}}">
+            <button class="weui-button chapter-btn chapter-4"
+                type="primary"
+                animation="{{btnAn}}">第四章</button>
+        </block>
+    </view>
+
+    <block wx:if="{{finalBtn}}">
+        <button class="weui-button chapter-btn chapter-5"
+            type="primary"
+            animation="{{btnAn}}">终章</button>
+    </block>
+</view>
