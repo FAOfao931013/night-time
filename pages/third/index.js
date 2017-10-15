@@ -19,7 +19,7 @@ Page({
         this.backgroundAudioManager.stop();
     },
     setChapter() {
-        app.setChapterStorage('second', true);
+        app.setChapterStorage('fourth', true);
         app.reLaunch('/pages/index/index');
     },
     onLoad(options) {

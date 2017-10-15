@@ -2,7 +2,8 @@
     "pages": [
         "pages/index/index",
         "pages/first/index",
-        "pages/second/index"
+        "pages/second/index",
+        "pages/third/index"
     ],
     "window": {
         "backgroundTextStyle": "light",

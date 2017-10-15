@@ -18,7 +18,7 @@ App({
 
     },
     onShow() {
-        app.checkChapter();
+        this.checkChapter();
     },
     //检查本地章节
     checkChapter() {

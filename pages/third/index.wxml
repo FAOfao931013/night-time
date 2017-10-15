@@ -1,0 +1,7 @@
+<view class="weui-article">
+    <view class="weui-article__h1">第二章节</view>
+    <view class="weui-article__p">大三。</view>
+
+</view>
+
+<button class="to-next-btn" bindtap="setChapter">前往下一章</button>

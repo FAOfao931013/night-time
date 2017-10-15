@@ -29,7 +29,7 @@ Page({
 
     },
     onShow() {
-        this.openBg();
+        // this.openBg();
     },
     onUnload() {
 
