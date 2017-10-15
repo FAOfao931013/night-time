@@ -1,0 +1,30 @@
+<view class="weui-article">
+    <view class="weui-article__h1">第二章节</view>
+    <view class="weui-article__p">大二。</view>
+    <view class="weui-article__p">喧嚣的风声，嘈杂的雨声。</view>
+    <view class="weui-article__p">是这个几个月不变的旋律。</view>
+    <view class="weui-article__p">男孩一如往常般打着哈欠，慵懒的睡意，阑珊的心情，只想躺倒床上，做一个美美的梦，梦里有花有草，有那个未曾遇见的她。</view>
+    <view class="weui-article__p">女孩无奈的看着外面，是一群群一年前的自己，懵懂又好奇，兴奋又胆怯，似乎这里是新大陆，探索永无止境。</view>
+    <view class="weui-article__p">没想到那么快便习惯了生活，没想到那么快便显得无聊。</view>
+    <view class="weui-article__p">同样的课堂，熟悉的老师，期待着假期，却又心怀忐忑。</view>
+    <view class="weui-article__p">到底应该做些什么？</view>
+    <view class="weui-article__p">男孩想了又想，远处是激战正酣的球场，近处是触手可及的战场，舍远求近的生活，不知是何时开始的。</view>
+    <view class="weui-article__p">女孩思索了下，一成不变的生活真是让人厌倦，为何不寻找回去年那个自己，去体验任何新鲜事物。</view>
+    <view class="weui-article__p">仿佛从这一刻开始，新一年的生活才慢慢有了色彩。</view>
+    <view class="weui-article__p">男孩学了吉他，写了小说，买了外设，打了零工，这才是有趣的生活，才不要在一个地方浪费时间，我要寻找到自己存在的意义，发掘自己潜在的实力。</view>
+    <view class="weui-article__p">女孩染了头发，改了发型，穿了耳洞，换了美瞳，誓要将在人生的画布上添上多姿多彩，自拍也好，美食也罢，我就是要成就一个不一样的自我。</view>
+    <view class="weui-article__p">这才是该要有的生活。</view>
+    <view class="weui-article__p">风儿依然呼啸，雨儿兀自飘摇。</view>
+    <view class="weui-article__p">窗外的人群还是一片一片。</view>
+    <view class="weui-article__p">男孩和女孩却不再无聊，生活变得有趣起来。</view>
+    <view class="weui-article__p">就连课堂也是满声欢笑，即便考试也不改我乐享今朝。</view>
+    <view class="weui-article__p">一年的时间总是眨眼即逝，但一年的收获缺是永不消逝。</view>
+    <view class="weui-article__p">男孩坐上了回家的地铁，看来这个假期有很多事可以做，有很多想法要去实现，有很多人想要保持联络。</view>
+    <view class="weui-article__p">女孩搭上了回家的巴士，感觉这一年无比的可爱，还有好多事情想要完成，还有好多风景想要领略，还有好多美食等着自己去尝个遍。</view>
+    <view class="weui-article__p">男孩和女孩迸发着各自的青春。</view>
+    <view class="weui-article__p">那下一年，又将如何。</view>
+    <view class="weui-article__p">微微的风吹着，细细的雨下着。</view>
+    <view class="weui-article__p">屋里的人儿静静地睡着。</view>
+</view>
+
+<button class="to-next-btn" bindtap="setChapter">前往下一章</button>

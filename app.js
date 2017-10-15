@@ -18,10 +18,18 @@ App({
 
     },
     onShow() {
+        app.checkChapter();
+    },
+    //检查本地章节
+    checkChapter() {
         this.globalData.second = this.getStorage('second');
         this.globalData.third = this.getStorage('third');
         this.globalData.fourth = this.getStorage('fourth');
         this.globalData.final = this.getStorage('final');
+    },
+    //存储当前章节
+    setChapterStorage(chapter, value) {
+        this.setStorage(chapter, value);
     },
     //获取本地数据
     getStorage(key) {

@@ -139,6 +139,8 @@ Page({
 
     },
     onShow() {
+        app.checkChapter();
+
         this.animationXY();
 
         setTimeout(() => {

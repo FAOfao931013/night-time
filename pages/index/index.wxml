@@ -24,15 +24,19 @@
 <view class="chapter-wrap">
     <view class="weui-flex flex-space-between">
         <block wx:if="{{firstBtn}}">
-            <button class="weui-button chapter-btn chapter-1"
-                type="primary"
-                animation="{{btnAn}}">第一章</button>
+            <navigator url="/pages/first/index">
+                <button class="weui-button chapter-btn chapter-1"
+                    type="primary"
+                    animation="{{btnAn}}">第一章</button>
+            </navigator>
         </block>
 
         <block wx:if="{{secondBtn}}">
-            <button class="weui-button chapter-btn chapter-2"
-                type="primary"
-                animation="{{btnAn}}">第二章</button>
+            <navigator url="/pages/second/index">
+                <button class="weui-button chapter-btn chapter-2"
+                    type="primary"
+                    animation="{{btnAn}}">第二章</button>
+            </navigator>
         </block>
     </view>
 

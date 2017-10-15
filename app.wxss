@@ -112,3 +112,8 @@ page,
 .text-left {
 	text-align: left;
 }
+
+.to-next-btn {
+	background-color: #6b6a6a;
+	color: #fff;
+}

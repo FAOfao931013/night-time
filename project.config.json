@@ -13,7 +13,14 @@
 	"condition": {
 		"weapp": {
 			"current": -1,
-			"list": []
+			"list": [
+				{
+					"id": -1,
+					"name": "第一章",
+					"pathName": "pages/first/index",
+					"query": ""
+				}
+			]
 		},
 		"search": {
 			"current": -1,
