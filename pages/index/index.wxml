@@ -42,9 +42,11 @@
 
     <view class="weui-flex flex-space-between">
         <block wx:if="{{thirdBtn}}">
-            <button class="weui-button chapter-btn chapter-3"
-                type="primary"
-                animation="{{btnAn}}">第三章</button>
+            <navigator url="/pages/third/index">
+                <button class="weui-button chapter-btn chapter-3"
+                    type="primary"
+                    animation="{{btnAn}}">第三章</button>
+            </navigator>
         </block>
 
         <block wx:if="{{fourthBtn}}">
