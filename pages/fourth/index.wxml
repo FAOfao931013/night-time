@@ -1,0 +1,29 @@
+<view class="weui-article">
+    <view class="weui-article__h1">第四章节</view>
+    <view class="weui-article__p">大四。</view>
+	<view class="weui-article__p">最可爱的一年。</view>
+	<view class="weui-article__p">快乐就是，到处都有你的身影，去哪都和你在一起。</view>
+	<view class="weui-article__p">男孩和女孩欢笑着，虽然毕业季的繁忙已接踵而至，但这无法阻挡热恋的冲击。</view>
+	<view class="weui-article__p">男孩带女孩去了很多地方，女孩带男孩尝遍了各种美食。</view>
+	<view class="weui-article__p">每周都会有新鲜的事情发生，每天都会有美好的事情发生。</view>
+	<view class="weui-article__p">男孩和女孩也发现原来对方是那么的不同。</view>
+	<view class="weui-article__p">原来你以前是这个样子的，原来你是那么有趣的人。</view>
+	<view class="weui-article__p">原来恋爱真的会让人快乐，原来恋爱是那么的甜蜜。</view>
+	<view class="weui-article__p">男孩觉得女孩是世界上最可爱的女友了，漂亮善良，温柔大方，常带给自己小小的惊喜，让人捉摸不透，却又呆萌至极。</view>
+	<view class="weui-article__p">女孩觉得男孩是最爱自己的人，处处都以自己为优先，只要能让自己开心，任何事男孩都愿意去做。</view>
+	<view class="weui-article__p">时光匆匆，一去便不复返。</view>
+	<view class="weui-article__p">热恋期也是，总会有平息的时候。</view>
+	<view class="weui-article__p">男孩和女孩都知道，但是两人都在努力让这份感情持续着燃烧下去。</view>
+	<view class="weui-article__p">大学的生活已临近结束，实习的机会变得多了起来。</view>
+	<view class="weui-article__p">男孩和女孩选择了同一家公司，因为这样就能一起上下班了。</view>
+	<view class="weui-article__p">虽然实习并没有想的那么轻松，但是两人都努力的工作着，因为未来需要两个人一起去创造。</view>
+	<view class="weui-article__p">虽然在工作和生活中，男孩和女孩难免出现了一些小碰撞，虽然在感情上，难免会出现一些小裂痕，但两人都尽力克服着，修复着。</view>
+	<view class="weui-article__p">因为两人都不想放弃这段感情，两人都喜欢着对方。</view>
+	<view class="weui-article__p">夏天的风吹着，带来了夏日的味道。</view>
+	<view class="weui-article__p">男孩和女孩一边工作着，一边准备着毕业。</view>
+	<view class="weui-article__p">四年虽说不长，但装载着太多难以割舍的回忆。</view>
+	<view class="weui-article__p">男孩和女孩最后一次来到校园，他们走过那熟悉的街道，穿过那溢满香味的食堂，最后向自己的宿舍告别。</view>
+	<view class="weui-article__p">就这样，毕业了。</view>
+</view>
+
+<button class="to-next-btn" bindtap="setChapter">前往下一章</button>
