@@ -1,0 +1,29 @@
+<view class="weui-article">
+    <view class="weui-article__h1">后来</view>
+    <view class="weui-article__p">后来的故事。</view>
+	<view class="weui-article__p">又是一年的冬天，今年的冬天格外的冷。</view>
+	<view class="weui-article__p">女孩对着双手哈了一口热气，又猛地搓了搓，这天真是太冷了。</view>
+	<view class="weui-article__p">男孩看着怕冷的女孩，一把抓住了女孩的双手。</view>
+	<view class="weui-article__p">“给你暖手。”</view>
+	<view class="weui-article__p">“好热~好热~”</view>
+	<view class="weui-article__p">女孩只觉得一股暖意涌上了心头。</view>
+	<view class="weui-article__p">男孩看着女孩红红的脸蛋，笑了笑。</view>
+	<view class="weui-article__p">两人正准备着跨年，天气预报说今年比起往年来说更加的冷。</view>
+	<view class="weui-article__p">但这丝毫抵挡不住跨年外出的人流。</view>
+	<view class="weui-article__p">男孩和女孩则选择了一个相对人少的地方，两人慢慢的走着，慢慢的等着新年钟声的敲响。</view>
+	<view class="weui-article__p">两人约定着以后的每个新年都要一起牵着对方的手，一起度过。</view>
+	<view class="weui-article__p">男孩去了另外一家公司，开始了新的工作，为了能和女孩在一起过上幸福的生活不断拼搏。</view>
+	<view class="weui-article__p">女孩留在了初次实习的公司，因为这家公司离自己家很近，更重要的是这里有和男孩的回忆。</view>
+	<view class="weui-article__p">两个人也一起去了很多地方，在那些地方留下了美好的回忆。</view>
+	<view class="weui-article__p">女孩最大的梦想就是和爱的人一起去世界各地旅行。</view>
+	<view class="weui-article__p">男孩的梦想则是永远陪着女孩一起去世界各地旅行。</view>
+	<view class="weui-article__p">两人还尝遍了好多的美食，约定着就要这样一直一直玩到老吃到老，永远的开心到老。</view>
+	<view class="weui-article__p">那年，我经过你的面前。</view>
+	<view class="weui-article__p">那年，你出现我的眼前。</view>
+	<view class="weui-article__p">那年，有人拨动了心中的琴弦。</view>
+	<view class="weui-article__p">雨儿缓缓地奏起恋曲，风儿轻轻的唱起恋歌。</view>
+	<view class="weui-article__p">一切的美好都发生在此时此刻。</view>
+	<view class="weui-article__p">后来的后来，与你的故事还在发生着。</view>
+</view>
+
+<button class="to-next-btn" bindtap="setChapter">返回首页</button>

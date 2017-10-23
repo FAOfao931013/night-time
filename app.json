@@ -3,7 +3,9 @@
         "pages/index/index",
         "pages/first/index",
         "pages/second/index",
-        "pages/third/index"
+        "pages/third/index",
+        "pages/fourth/index",
+        "pages/final/index"
     ],
     "window": {
         "backgroundTextStyle": "light",
