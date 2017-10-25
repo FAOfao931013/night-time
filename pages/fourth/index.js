@@ -6,7 +6,7 @@ Page({
         imgSrc: '../../img/',
     },
     setChapter() {
-        app.setChapterStorage('final', true);
+        // app.setChapterStorage('final', true);
         app.reLaunch('/pages/index/index');
     },
     onLoad(options) {

@@ -50,15 +50,19 @@
         </block>
 
         <block wx:if="{{fourthBtn}}">
-            <button class="weui-button chapter-btn chapter-4"
-                type="primary"
-                animation="{{btnAn}}">第四章</button>
+            <navigator url="/pages/fourth/index">
+                <button class="weui-button chapter-btn chapter-4"
+                    type="primary"
+                    animation="{{btnAn}}">第四章</button>
+            </navigator>
         </block>
     </view>
 
     <block wx:if="{{finalBtn}}">
-        <button class="weui-button chapter-btn chapter-5"
-            type="primary"
-            animation="{{btnAn}}">终章</button>
+        <navigator url="/pages/final/index">
+            <button class="weui-button chapter-btn chapter-5"
+                type="primary"
+                animation="{{btnAn}}">终章</button>
+        </navigator>
     </block>
 </view>
